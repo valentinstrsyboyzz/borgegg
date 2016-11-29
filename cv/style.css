@@ -20,6 +20,11 @@ body{
   background-color: lightgray;
   float: right;
 }
+
+.right img{
+ width:  400px;
+}
+
 h1 { 
   vertical-align: middle; 
   text-align: center;  
