@@ -6,7 +6,7 @@ body{
 #header{  
   width: 100%; 
   height: 80px; 
-  background-color: black;
+  background-color: aquamarine;
 }
 
 .left{ 
@@ -17,7 +17,7 @@ body{
 }
 .right{ 
   width: 70%;  
-  background-color: lightgray;
+  background-color: mediumseagreen;
   float: right;
 }
 
