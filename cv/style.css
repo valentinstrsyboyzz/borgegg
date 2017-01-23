@@ -1,171 +1,67 @@
+body{
+
+  width: 600px;
+
+  margin: auto;
+
+}
+
+
+
 #header{
 
   width: 100%;
 
-  height:110px;
+  height: 80px;
 
-  background-color:RGBA(13, 42, 143, 0.85);
-
-  color: white;
-
-  text-align: center;
-
-  font-size:400%;
+  background-color: yellow;
 
 }
+
+
+
+#header img{
+
+  height: 100px;
+
+}
+
+
 
 .left{
 
-  height:1000px;
+  width: 30%;
 
-  width:210px;
-
-  background-color:#4C5FF4;
-
-  float:left;
-
-  font-size:18px;
-
-}
-
-.right{
-
-
-
-  background-color:white;
-
-  float:right;
-
-  font-size:18px;
-
-}
-
-.Kontakt {
-
-  font-size:16px;
-
-  color:white;
-
- 
-
-}
-
-
-
-a {
-
-  text-decoration:none;
-
-  color:white;
-
-}
-
-#schule {
-
-  position: absolute;
-
-  left: 210px;
-
-  
-
-}
-
-#laufbahn{
-
-  background-color:#4C5FF4;
-
-  margin-left: -32px;
-
-  padding: 10px;
+  background-color: green;  
 
   color: white;
 
-}
-
-#hobby{
-
-  position: absolute;
-
-  left: 210px;
-
-  top:400px;
+  float: left;
 
 }
 
-img {
 
-  position: inherit;
 
-  height: 350px;
+.right{
 
-  border: 10px solid #4C5FF4;
+  width: 70%;
 
-  border-radius: 10px;
+  background-color: lightgray;  
 
   float: right;
 
-  
-
-}@media screen  and (max-width :470px) {
-
-  .left, .right{
-
-    width:100%;
-
-   
-
-  
-
-  }
-
-  #header{
-
-    font-size:300%
-
 }
 
-  .left{
-
-    position:absolute;
-
-    bottom:-600px;
-
-    height:350px;
-
-  }
-
- 
-
-  .right{
-
-    position:absolute;
-
-    top: :100px;
-
-    margin-left: -200px;
-
-   
-
-  }
-
-  #hobby{
-
-    margin-top:-70px
-
-  }
 
 
 
 
+@media screen and (max-width: 600px) {
 
-}
+   .left, .right{
 
-@media screen  and (max-width :950px){
+      width: 100%;
 
-  img{
-
-    display:none;
-
-  }
+   }
 
 }
