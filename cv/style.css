@@ -1,1 +1,171 @@
-html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {  margin: 0;  padding: 0;  border: 0;  outline: 0;  vertical-align: baseline;  background: transparent;}body {  font-size: 10px;  font-family: Arial, Helvetica, sans-serif;}textarea, input, select {  font-family: Helvetica, Arial, sans-serif;  box-sizing: border-box; // Opera/IE 8+}ol, ul {  list-style: none;}blockquote, q {  quotes: none;}:focus {  outline: 0;}ins {  text-decoration: none;}del {  text-decoration: line-through;}table {  border-collapse: collapse;  border-spacing: 0;}a {  cursor: pointer;  text-decoration: none;}// *// * Set body and site structure to a minimum height of 100%// * this causes the body to be smaller than it's content, which means that when scrolling it looks like the content is out of body.// *html, body{  height : 100%;}// *************************************// * Body overflow settings, BE CAREFUL WHEN CHANGING THIS// *//  When in Public Viewer Modebody {  overflow-x : auto;  overflow-y : scroll;}
+#header{
+
+  width: 100%;
+
+  height:110px;
+
+  background-color:RGBA(13, 42, 143, 0.85);
+
+  color: white;
+
+  text-align: center;
+
+  font-size:400%;
+
+}
+
+.left{
+
+  height:1000px;
+
+  width:210px;
+
+  background-color:#4C5FF4;
+
+  float:left;
+
+  font-size:18px;
+
+}
+
+.right{
+
+
+
+  background-color:white;
+
+  float:right;
+
+  font-size:18px;
+
+}
+
+.Kontakt {
+
+  font-size:16px;
+
+  color:white;
+
+ 
+
+}
+
+
+
+a {
+
+  text-decoration:none;
+
+  color:white;
+
+}
+
+#schule {
+
+  position: absolute;
+
+  left: 210px;
+
+  
+
+}
+
+#laufbahn{
+
+  background-color:#4C5FF4;
+
+  margin-left: -32px;
+
+  padding: 10px;
+
+  color: white;
+
+}
+
+#hobby{
+
+  position: absolute;
+
+  left: 210px;
+
+  top:400px;
+
+}
+
+img {
+
+  position: inherit;
+
+  height: 350px;
+
+  border: 10px solid #4C5FF4;
+
+  border-radius: 10px;
+
+  float: right;
+
+  
+
+}@media screen  and (max-width :470px) {
+
+  .left, .right{
+
+    width:100%;
+
+   
+
+  
+
+  }
+
+  #header{
+
+    font-size:300%
+
+}
+
+  .left{
+
+    position:absolute;
+
+    bottom:-600px;
+
+    height:350px;
+
+  }
+
+ 
+
+  .right{
+
+    position:absolute;
+
+    top: :100px;
+
+    margin-left: -200px;
+
+   
+
+  }
+
+  #hobby{
+
+    margin-top:-70px
+
+  }
+
+
+
+
+
+}
+
+@media screen  and (max-width :950px){
+
+  img{
+
+    display:none;
+
+  }
+
+}
